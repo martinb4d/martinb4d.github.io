@@ -1,0 +1,224 @@
+.poke__catch-section {
+    color: #fff;
+    
+    width: 100%;
+  }
+
+  
+  .poke__catch-container{
+    padding: 50px 0;
+  }
+  
+  .poke__catch-row {
+    align-items: center;
+  }
+  
+  .row {
+    display: flex;
+    margin-right: -15px;
+    margin-bottom: -15px;
+    margin-left: -15px;
+    flex-wrap: wrap;
+    align-content: stretch;
+  }
+  
+  .col {
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 1;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  
+  .poke__catch-text-wrapper {
+    max-width: 540px;
+    padding-top: 0;
+    padding-bottom: 60px;
+  }
+  
+  
+  .poke__catch-top-line {
+    color: #fff;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    background: #101425;
+    text-align: center;
+  }
+  
+  .poke__catch-heading {
+    margin-bottom: 24px;
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .poke__catch-subtitle {
+    color: #fff;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    background: #101425;
+    text-align: center;
+  }
+  
+  .poke__catch-img-wrapper {
+    max-width: 555px;
+  }
+  
+  .poke__catch-img {
+    max-width: 95%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 10px;
+    padding-right: 0;
+    height: 300px;
+  }
+  
+  img {
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    object-fit: contain;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .container {
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .poke__catch-text-wrapper {
+      padding-bottom: 65px;
+    }
+  
+    .col {
+      max-width: 100%;
+      flex-basis: 100%;
+    }
+  }
+
+
+  .form__poqatch {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    max-width: 540px;
+  }
+  
+  .form__poqatch-inputs {
+    margin-bottom: 0.5rem;
+    width: 100%;
+  }
+  
+  .form__poqatch-label {
+    display: inline-block;
+    font-size: 0.8rem;
+    margin-bottom: 7px;
+    color: #fff;
+    width: 100%;
+  }
+  
+  .form__poqatch-input {
+    display: block;
+    padding-left: 10px;
+    padding-top: 4px;
+    outline: none;
+    border-radius: 2px;
+    height: 50px;
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    border-right-width: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #e2e2e2;
+    color: #242424;
+    min-width: 8em;
+    
+  }
+  
+  .form__poqatch-input::placeholder {
+    color: #595959;
+    font-size: 12px;
+  }
+  
+  .form__poqatch-input-btn1 {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 16px;
+    background-color: #276afb;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 13px 10px;
+    width: 50%;
+  }
+  .form__poqatch-input-btn2 {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 16px;
+    background-color: #f00946;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 13px 26px;
+    width: 50%;
+  }
+  
+  .form__poqatch-input-btn1:hover {
+    cursor: pointer;
+    background-color: #276baa;
+    transition: all 0.3s ease-out;
+  }
+
+  .form__poqatch-input-btn2:hover {
+    cursor: pointer;
+    background-color: #f00990;
+    transition: all 0.3s ease-out;
+  }
+   
+
+.poke__catch-loading-bg{
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+  
+  .poke__catch-loading-wrapper {
+    width: 80%;
+    height: 60%;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.0);
+    color: #000;
+    position: relative;
+    z-index: 10;
+    border-radius: 10px;
+    
+  }
+  .img-loading {  
+    width:100%;
+    height:100%;
+
+  }

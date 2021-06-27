@@ -1,0 +1,22 @@
+.search_wrapper {
+    margin-bottom: 30px;
+    width: 60%;
+    padding: 20px 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .search_input {
+    background: #222531;
+    border: none;
+    padding: 16px;
+    border-radius: 4px;
+    outline: none;
+    height: 100%;
+    width: 100%;
+    color: #e0e0e0;
+  }
+  
+  .search_input::placeholder {
+    color: #a3a3a3;
+  }
