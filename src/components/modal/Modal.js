@@ -21,11 +21,11 @@ function Modal({ showModal, setShowModal, respData }) {
   }
 
   function reloadWildling() {
-    if (respData.respCode) {
-      history.push("/Poqatch");
-    } else {
+    // if (respData.respCode) {
+    //   history.push("/Poqatch");
+    // } else {
       history.go(0);
-    }
+    // }
   }
 
   const keyPress = useCallback(
