@@ -1,19 +1,10 @@
 import React, { useRef, useEffect, useCallback } from 'react';
-import { useSpring } from 'react-spring';
 import { MdClose } from 'react-icons/md';
 import '../../styles/Modal.css'
 import { useHistory } from 'react-router-dom';
 
 function Modal({ showModal, setShowModal, respData }) {
   const modalRef = useRef();
-
-  const animation = useSpring({
-    config: {
-      duration: 250
-    },
-    opacity: showModal ? 1 : 0,
-    transform: showModal ? `translateY(0%)` : `translateY(-100%)`
-  });
 
   const history = useHistory();
 
@@ -62,7 +53,7 @@ function Modal({ showModal, setShowModal, respData }) {
 
             <img className='modal-img' src={
               respData.respCode ?
-                respData.respCode == '00' ? 'images/catched.png' : 'images/boo.jpg'
+                respData.respCode === '00' ? 'images/catched.png' : 'images/boo.jpg'
                 : 'images/release.jpg'
             } alt='camera' />
             <div className='modal-content'>

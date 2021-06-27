@@ -23,9 +23,9 @@ function Pokemon({ id, name, nickname, owned, isOwned, setFormState, formState }
         
         <div className='pokemon_button_section'>
           {isOwned ?
-            <div class='pokemon_button_wrapper'>
+            <div className='pokemon_button_wrapper'>
               <button title="Execute"
-                class="pokemon_button"
+                className="pokemon_button"
                 type="submit"
                 onClick={(e) =>
                   setFormState({
@@ -37,9 +37,9 @@ function Pokemon({ id, name, nickname, owned, isOwned, setFormState, formState }
               > <FaSkullCrossbones/> </button>
             </div>
             : ''}
-          <div class='pokemon_button_wrapper'>
+          <div className='pokemon_button_wrapper'>
             <button title="Inspect"
-              class="pokemon_button"
+              className="pokemon_button"
               type="submit"
               onClick={() =>
                 setFormState({

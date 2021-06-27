@@ -147,7 +147,7 @@ function ModalDetail({ showModalDetail, setShowModalDetail, formState}) {
                       }
                       
                     </div>
-                    <img className='modal-detail-img' src={data.pokemon.picture}  />
+                    <img className='modal-detail-img' src={data.pokemon.picture}  alt={data.pokemon.name}/>
                   </div>
                   <div className='modal-detail-type-content'>
                     <h3>Poquemon types</h3>

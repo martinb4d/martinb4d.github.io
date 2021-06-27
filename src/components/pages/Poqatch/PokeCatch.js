@@ -75,7 +75,7 @@ function PokeCatch({topLine, name, bottomLine, img, alt }) {
                             }} >
 
                                 <div className="form__poqatch-inputs">
-                                    <label htmlFor="nickname" class="form__poqatch-label">
+                                    <label htmlFor="nickname" className="form__poqatch-label">
                                         <input
                                             type="text"
                                             name="nickname"
@@ -91,7 +91,7 @@ function PokeCatch({topLine, name, bottomLine, img, alt }) {
 
                                     </label>
                                     <button 
-                                        class="form__poqatch-input-btn1" 
+                                        className="form__poqatch-input-btn1" 
                                         type="submit" 
                                         onClick={(e) =>
                                             setFormState({
@@ -102,7 +102,7 @@ function PokeCatch({topLine, name, bottomLine, img, alt }) {
                                         }
                                     > Throw Pokeball </button>
                                     <button 
-                                        class="form__poqatch-input-btn2" 
+                                        className="form__poqatch-input-btn2" 
                                         type="submit" 
                                         onClick={(e) =>
                                             setFormState({

@@ -4,7 +4,6 @@ import {
     gql
 } from "@apollo/client";
 import { Button } from '../../general/Button.js'
-import { BsSearch } from 'react-icons/bs'
 
 import ModalDetail from '../../modal/ModalDetail.js'
 import '../../../styles/PokeList.css'
@@ -122,11 +121,11 @@ function PoqueList({ limitInput, offsetInput }) {
         <>
             <div className="poke__list-section">
 
-                <ModalDetail showModalDetail={showModalDetail} setShowModalDetail={setShowModalDetail} formState={formState} />
+                <ModalDetail showModalDetail={showModalDetail} setShowModalDetail={setShowModalDetail} formState={formState}/>
                 
                 <form className="poke__list-form" type="submit" onSubmit={callMethod}  >
                     <div className="poke__list-form-inputs">
-                        <label htmlFor="limit" class="poke__list-form-label">
+                        <label htmlFor="limit" className="poke__list-form-label">
                             <input
                                 type="text"
                                 name="limit"
@@ -141,7 +140,7 @@ function PoqueList({ limitInput, offsetInput }) {
                                 }
                             />
                         </label>
-                        <label htmlFor="offsetVal" class="poke__list-form-label">
+                        <label htmlFor="offsetVal" className="poke__list-form-label">
                             <input
                                 type="text"
                                 name="offsetVal"
@@ -157,7 +156,7 @@ function PoqueList({ limitInput, offsetInput }) {
                             />
                         </label>
                         <button
-                            class="poke__list-form-input-btn"
+                            className="poke__list-form-input-btn"
                             type="submit"
                             onClick={() =>
                                 setFormState({
